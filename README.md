@@ -1,0 +1,2 @@
+# xmb
+new myblog
