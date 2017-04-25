@@ -1,0 +1,2387 @@
+2017-04-06 09:16:49 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:16:49 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2364'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64684'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470209.0472
+    'REQUEST_TIME' => 1491470209
+]
+2017-04-06 09:23:35 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:23:35 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2324'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64870'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470615.1235
+    'REQUEST_TIME' => 1491470615
+]
+2017-04-06 09:23:38 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:23:38 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2324'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64878'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470618.5123
+    'REQUEST_TIME' => 1491470618
+]
+2017-04-06 09:23:39 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:23:39 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2324'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64878'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470619.8802
+    'REQUEST_TIME' => 1491470619
+]
+2017-04-06 09:25:14 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:25:14 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2324'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64924'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470714.0137
+    'REQUEST_TIME' => 1491470714
+]
+2017-04-06 09:25:15 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:25:15 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2324'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64925'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470715.0832
+    'REQUEST_TIME' => 1491470715
+]
+2017-04-06 09:25:15 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:25:15 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2324'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64925'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470715.5596
+    'REQUEST_TIME' => 1491470715
+]
+2017-04-06 09:25:16 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:25:16 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2324'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64925'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470716.0844
+    'REQUEST_TIME' => 1491470716
+]
+2017-04-06 09:25:16 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:25:16 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2324'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64928'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470716.4427
+    'REQUEST_TIME' => 1491470716
+]
+2017-04-06 09:25:16 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:25:16 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2324'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64924'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470716.8721
+    'REQUEST_TIME' => 1491470716
+]
+2017-04-06 09:25:17 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:25:17 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2324'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64927'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470717.2915
+    'REQUEST_TIME' => 1491470717
+]
+2017-04-06 09:25:17 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:25:17 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2324'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64928'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470717.6358
+    'REQUEST_TIME' => 1491470717
+]
+2017-04-06 09:25:18 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:25:18 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2392'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64926'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470718.2347
+    'REQUEST_TIME' => 1491470718
+]
+2017-04-06 09:26:31 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:26:31 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2324'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64972'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470791.2483
+    'REQUEST_TIME' => 1491470791
+]
+2017-04-06 09:26:32 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:26:32 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2324'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64972'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470792.0031
+    'REQUEST_TIME' => 1491470792
+]
+2017-04-06 09:26:32 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:26:32 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2324'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64972'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470792.349
+    'REQUEST_TIME' => 1491470792
+]
+2017-04-06 09:26:32 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:26:32 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2392'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64973'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470792.577
+    'REQUEST_TIME' => 1491470792
+]
+2017-04-06 09:26:32 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:26:32 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2324'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64972'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470792.8145
+    'REQUEST_TIME' => 1491470792
+]
+2017-04-06 09:26:33 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:26:32 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2324'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64974'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470792.9787
+    'REQUEST_TIME' => 1491470792
+]
+2017-04-06 09:26:33 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:26:33 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2324'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64975'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470793.1611
+    'REQUEST_TIME' => 1491470793
+]
+2017-04-06 09:26:33 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:26:33 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2324'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '64976'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491470793.3409
+    'REQUEST_TIME' => 1491470793
+]
+2017-04-06 09:32:51 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:32:51 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2320'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '65180'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491471171.5149
+    'REQUEST_TIME' => 1491471171
+]
+2017-04-06 09:32:53 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:32:53 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2320'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '65180'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491471173.8664
+    'REQUEST_TIME' => 1491471173
+]
+2017-04-06 09:39:05 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:39:05 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2540'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '65412'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491471545.4996
+    'REQUEST_TIME' => 1491471545
+]
+2017-04-06 09:39:06 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:39:06 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2540'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '65412'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491471546.3569
+    'REQUEST_TIME' => 1491471546
+]
+2017-04-06 09:39:07 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:39:06 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2540'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '65412'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491471546.9836
+    'REQUEST_TIME' => 1491471546
+]
+2017-04-06 09:39:07 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:39:07 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2540'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '65417'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491471547.5421
+    'REQUEST_TIME' => 1491471547
+]
+2017-04-06 09:39:07 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:39:07 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2540'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '65417'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491471547.7736
+    'REQUEST_TIME' => 1491471547
+]
+2017-04-06 09:39:08 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:39:08 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2540'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '65417'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491471548.0071
+    'REQUEST_TIME' => 1491471548
+]
+2017-04-06 09:39:08 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:39:08 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2540'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '65417'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491471548.2065
+    'REQUEST_TIME' => 1491471548
+]
+2017-04-06 09:39:08 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:39:08 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2540'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '65417'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491471548.4169
+    'REQUEST_TIME' => 1491471548
+]
+2017-04-06 09:39:08 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:39:08 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2540'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '65417'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491471548.6335
+    'REQUEST_TIME' => 1491471548
+]
+2017-04-06 09:40:21 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:40:21 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2540'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '65450'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491471621.2869
+    'REQUEST_TIME' => 1491471621
+]
+2017-04-06 09:40:23 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:40:23 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2540'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '65450'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491471623.835
+    'REQUEST_TIME' => 1491471623
+]
+2017-04-06 09:41:15 [::1][-][h9u59954eae6dc1m38tlpdpc63][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "post/index". in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/index', Array)
+#1 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\phpStudy\WWW\xxx\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\xxx\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-06 09:41:15 [::1][-][h9u59954eae6dc1m38tlpdpc63][info][application] $_GET = [
+    'r' => 'post/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'h9u59954eae6dc1m38tlpdpc63'
+    '_csrf-frontend' => 'b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"5BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Looking\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\Looking\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\Looking\\AppData\\Roaming\\npm;C:\\Users\\Looking\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2540'
+    'SCRIPT_NAME' => '/xxx/frontend/web/index.php'
+    'REQUEST_URI' => '/xxx/frontend/web/index.php?r=post/index'
+    'QUERY_STRING' => 'r=post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '65477'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/xxx/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REMOTE_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '::1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'advanced-frontend=h9u59954eae6dc1m38tlpdpc63; _csrf-frontend=b3f91e9b186e33056d54225f47d18b99c97b0ae0ee8cb3250aa6e669a3e8f441a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%225BNBo2zqGhzqg6y51XF5oUVfZ7H3iccC%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'localhost'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/xxx/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491471675.5799
+    'REQUEST_TIME' => 1491471675
+]
